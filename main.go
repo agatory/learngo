@@ -28,4 +28,3 @@ func main() {
 	e.POST("/scrape", handleScrape)
 	e.Logger.Fatal(e.Start(":1323"))
 }
-GET https://google.com
